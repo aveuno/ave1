@@ -9,6 +9,7 @@ export const getAbonos = async (req, res) => {
     return res.status(500).json({ message: error.message });
   }
 };
+// HOLA 
 
 export const getAbono = async (req, res) => {
     try {
